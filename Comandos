@@ -1,0 +1,23 @@
+# Comando "select" seleciona os campos da tabela.
+
+Select <Lista de Campos>
+From <tabela>
+
+# Comando "select * from" retorna todos os campos da tabela. (*não recomendado)
+
+Select * from Produtos
+
+# Comando "from" seleciona a tabela que a consulta deve ser feita
+
+from<tabela>
+
+# Comando "distinct" extrai valores sem repetição, a partir da combinação da lista de campos.
+
+select distinct Produto, categoria
+from vendas
+
+# Comando "where" permite passar condições para filtrar o resultado.
+
+select codigo, nome, categoria
+from Produtos
+where stats = "Ativo"
